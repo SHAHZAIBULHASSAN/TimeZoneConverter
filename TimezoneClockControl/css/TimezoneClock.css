@@ -1,0 +1,42 @@
+/* General styling for the control */
+.timezone-converter {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 300px;
+    margin: auto;
+}
+
+.timezone-converter label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.datetime-input, .city-dropdown {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.datetime-input:focus, .city-dropdown:focus {
+    border-color: #0078d7;
+    outline: none;
+}
+
+.analog-clock {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
